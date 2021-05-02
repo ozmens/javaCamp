@@ -8,7 +8,7 @@ public class Main {
 				
 		UserManager userManager = new UserManager();
 		userManager.Add(user1);
-		userManager.Login(user1);
+	
 	}
 	
 	
