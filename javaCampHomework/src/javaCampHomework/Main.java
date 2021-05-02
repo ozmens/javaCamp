@@ -18,10 +18,10 @@ public class Main {
 		userManager.add(user1);
 		
 		InstructorManager instructorManager=new InstructorManager();
-		instructorManager.add(instructor1);
+		instructorManager.assign(instructor1);
 		
 		StudentManager studentManager=new StudentManager();
-		studentManager.add(student1);
+		studentManager.register(student1);
 	
 	}
 	
