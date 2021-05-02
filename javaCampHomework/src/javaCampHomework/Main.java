@@ -3,8 +3,13 @@ package javaCampHomework;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		
+		User user1 = new User(1,"Serkan","Özmen","ozmens@gmail.com","abcde");
+				
+		UserManager userManager = new UserManager();
+		userManager.Add(user1);
 	}
+	
+	
 
 }
